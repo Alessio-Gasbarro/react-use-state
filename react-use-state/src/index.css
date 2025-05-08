@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.cont-header {
+  width: 100%;
+  min-height: 100px;
+  padding: 30px;
+  font-size: 20px;
+  background-color: lightgray;
+  text-align: start;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.cont-main {
+  width: 50%;
+}
+
+button {
+  background-color: #0D6EFD;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+h2 {
+  padding: 12px;
+}
+
+.cont-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
